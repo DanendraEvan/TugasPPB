@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/LensPro/.idea/caches
+/LensPro/.idea/libraries
+/LensPro/.idea/modules.xml
+/LensPro/.idea/workspace.xml
+/LensPro/.idea/navEditor.xml
+/LensPro/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+LensPro/local.properties

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/bggambar"
+    tools:context=".MainActivity">
+
+    <!-- GridLayout untuk membagi layout menjadi 2x2 -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <!-- Tombol 1: Open Kamera -->
+        <Button
+            android:id="@+id/kameraBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Open Kamera"
+            android:textSize="18sp"
+            android:backgroundTint="@color/info"
+            />
+
+        <!-- Tombol 2: Open Galeri -->
+        <Button
+            android:id="@+id/galeriBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Open Galeri"
+            android:textSize="18sp"
+            android:backgroundTint="@color/info"/>
+
+        <!-- Tombol 3: Potong Gambar -->
+        <Button
+            android:id="@+id/editBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Potong Gambar"
+            android:backgroundTint="@color/info"/>
+
+        <!-- Tombol 4: Kecerahan Gambar -->
+        <Button
+            android:id="@+id/kecerahanBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Kecerahan Gambar"
+            android:backgroundTint="@color/info"/>
+        <Button
+            android:id="@+id/filterbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp"
+            android:text="Filter Gambar"
+            android:backgroundTint="@color/info"/>
+
+    </GridLayout>
+
+</LinearLayout>
