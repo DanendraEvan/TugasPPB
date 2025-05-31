@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "452623435112",
+    "project_id": "lenspro-7d702",
+    "storage_bucket": "lenspro-7d702.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452623435112:android:ffaf8c0a565d6b1f6f42dd",
+        "android_client_info": {
+          "package_name": "com.example.lenspronewproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc9_UiemoPNH6Zc1lS2NJFdVfZMwfmfQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

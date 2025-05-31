@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:title="Beranda"
+        android:icon="@drawable/home" />
+    <item
+        android:id="@+id/nav_setting"
+        android:title="Pengaturan"
+        android:icon="@drawable/settings" />
+    <item
+        android:id="@+id/nav_theme"
+        android:title="Ubah Tema"
+        android:icon="@drawable/sun" />
+</menu>
